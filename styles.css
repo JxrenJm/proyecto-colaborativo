@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #1a1a1a;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  form {
+    margin: 2em auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form button {
+    margin-bottom: 1em;
+    padding: 10px;
+  }
+  
+  .course-card {
+    background: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
